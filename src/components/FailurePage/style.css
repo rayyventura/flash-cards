@@ -1,0 +1,61 @@
+.failure{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.failure h1{
+    font-weight: bold;
+    font-size: 36px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 12px;
+}
+.failure p{
+    font-size: 22px;   
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+.reload-button{
+    all: unset;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 9px;
+    
+    transition: ease-in;
+    transition: 300ms;
+    
+    
+}
+.reload{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+
+ border: 3px solid #FFEF61;
+ border-radius: 12px;
+
+ width: 260px;
+ height: 56px;
+
+ cursor: pointer;
+ margin-top: 45px;
+  
+}
+.reload:hover .reload-button{
+        font-size: 25px;
+       }
+
