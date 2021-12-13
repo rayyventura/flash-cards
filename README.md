@@ -1,5 +1,5 @@
 # Flash Card - ZapRecall 
-Site Published at: https://flash-cards-with-react-zap-recall.vercel.app/
+**Site Published at**: https://flash-cards-with-react-zap-recall.vercel.app/
 
 
 Study Recall Flashcard App</br>
