@@ -46,7 +46,8 @@ text-align: center;
         height: 49px;
 
         padding: 12px;
-    
-    
     }
+    .logo-img{
+        margin: 3vh auto 3vh auto;
+      }
 }
