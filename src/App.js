@@ -1,4 +1,5 @@
 import {useState} from "react"
+import {practiceHtml} from "./components/data"
 import Initial from "./components/Initial/";
 import Flaschcards from "./components/Flashcards/";
 import LogoMini from "./components/LogoMini/";
@@ -10,7 +11,8 @@ export default function App (){
     const [successPage,setSuccessPage]=useState(false);
     const [failurePage,setFailurePage]=useState(false);
     const [numberZap,setNumberZap]=useState(0);
-    const [numberMistakes,setNumberMistakes]=useState(0)
+    const [numberMistakes,setNumberMistakes]=useState(0);
+    const [pickFlashcard,setPickFlashcard]=useState(practiceHtml);
 
     return(
         <>
@@ -19,6 +21,7 @@ export default function App (){
         setInitialize={setInitialize}
         numberZap={numberZap}
         setNumberZap={setNumberZap}
+        setPickFlashcard={setPickFlashcard}
         />
 
         <LogoMini 
@@ -31,6 +34,7 @@ export default function App (){
         setFailurePage={setFailurePage}
         numberZap={numberZap}
         setNumberMistakes={setNumberMistakes}
+        pickedFlashcard={pickFlashcard}
         />
 
         <SuccessPage 

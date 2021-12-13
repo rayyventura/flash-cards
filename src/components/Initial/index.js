@@ -1,10 +1,10 @@
 import "./style.css"
 import Logo from "../../assets/logo.png"
-import Next from "../../assets/next.png"
 import { useState } from "react";
+import Button from "../Button";
 
 
-export default function Initial({initialize, setInitialize,setNumberZap,numberZap}){
+export default function Initial({initialize, setInitialize,setNumberZap,numberZap,setPickFlashcard}){
     const [verifyNumberZap, setVerifyNumberZap]=useState(false);
     
     function iniciateCard(){
@@ -13,6 +13,7 @@ export default function Initial({initialize, setInitialize,setNumberZap,numberZa
         }else{
          setInitialize(true);
          setVerifyNumberZap(false);
+         
         }
 
     }
@@ -26,10 +27,24 @@ export default function Initial({initialize, setInitialize,setNumberZap,numberZa
                 <input type="number" min="1" placeholder="Sua meta de Zaps" onChange={(e)=>setNumberZap(e.target.value)}/>
                 <p className={verifyNumberZap? "warn" : "display-none"}>Numero de Zaps deve no mínimo 1</p>
             </div>
-            <div className="practice-react">
-                <button className="practice-button" data-identifier="start-zap-recall" onClick={iniciateCard}> Praticar React </button>
-                <img src={Next} alt="" className="next-img"/>
-            </div>
+            <Button 
+            action={"Praticar HTML"}
+            text={"Praticar HTML"}
+            iniciateCard={iniciateCard}
+            setPickFlashcard={setPickFlashcard}
+            />
+             <Button 
+            action={"Praticar JavaScript"}
+            text={"Praticar JavaScript"}
+            iniciateCard={iniciateCard}
+            setPickFlashcard={setPickFlashcard}
+            />
+             <Button 
+            action={"Praticar React"}
+            text={"Praticar React"}
+            iniciateCard={iniciateCard}
+            setPickFlashcard={setPickFlashcard}
+            />
         </div>
     )
 }

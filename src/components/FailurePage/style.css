@@ -28,34 +28,3 @@
 
     text-align: center;
 }
-.reload-button{
-    all: unset;
-    font-size: 20px;
-    font-weight: bold;
-    padding-right: 9px;
-    
-    transition: ease-in;
-    transition: 300ms;
-    
-    
-}
-.reload{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: row;
-
- border: 3px solid #FFEF61;
- border-radius: 12px;
-
- width: 260px;
- height: 56px;
-
- cursor: pointer;
- margin-top: 45px;
-  
-}
-.reload:hover .reload-button{
-        font-size: 25px;
-       }
-

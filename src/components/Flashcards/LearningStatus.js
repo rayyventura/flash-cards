@@ -28,7 +28,7 @@ export default function LearningStatus({className,text,setBorder,border,setCurre
             default:
             setBorder(border);
         }
-        console.log(remember)
+        
         setTimeout(changeCards,1000);
 
     }

@@ -31,7 +31,7 @@
     word-wrap: break-word;
     text-align: center;
 
-    padding: 50px;
+    padding: 9px;
 }
 .flashcards{
     display: flex;
@@ -68,6 +68,8 @@
     text-align: center;
 
     font-weight: bold;
+
+    padding: 0 45px 0 45px;
 }
 .rewards{
     display: flex;

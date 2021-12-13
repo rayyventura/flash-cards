@@ -9,36 +9,6 @@
 .logo-img{
   margin: 20vh auto 3vh auto;
 }
-.practice-button{
-all: unset;
-font-size: 20px;
-font-weight: bold;
-padding-right: 9px;
-
-transition: ease-in;
-transition: 300ms;
-
-
-}
-
-.practice-react{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   border: 3px solid #FFEF61;
-   border-radius: 12px;
-
-   width: 260px;
-   height: 56px;
-
-   cursor: pointer;
-
-   margin-top: 20px;
-}
-.practice-react:hover .practice-button{
- font-size: 25px;
-}
 
 .logo-mini{
     display: flex;
