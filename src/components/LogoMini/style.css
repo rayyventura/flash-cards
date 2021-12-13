@@ -3,3 +3,10 @@
     width: 190px;
     cursor: pointer;
 }
+@media(max-width:960px){
+    .logo-mini img{
+        
+        width: 80px;
+        
+    }
+}
