@@ -32,7 +32,7 @@ export default function Button({action,text,iniciateCard,setPickFlashcard}) {
     }
     return (
     <div className="start">
-        <button className="start-button"  onClick={()=>pickCard()}> {text} </button>
+        <button className="start-button"  onClick={()=>pickCard()} data-identifier="start-zap-recall"> {text} </button>
         <img src={Next} alt="next-symbol" className="next-img"/>
    </div>
     )
