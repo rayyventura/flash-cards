@@ -8,8 +8,9 @@ A project that focus on applying concepts of lifecycle in REACT </br>
 through the useState function that allows us to manipulate the state of a react component.
 
 ## Tecnologies
-
- <img src="	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<div>
+ <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+ </div>
  
 ## How to Run 
 Open your terminal and then type. $ git clone {the url to the GitHub repo} This clones the repo.
